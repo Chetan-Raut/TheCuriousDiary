@@ -46,7 +46,7 @@ nav a {
 
 .navbar-brand {
   font-family: Arial, Helvetica, sans-serif;
-  font-size: 2rem;
+  font-size: 1rem;
   font-weight: 700;
   text-decoration: underline;
   text-decoration-color: deepskyblue;
@@ -194,4 +194,9 @@ p {
     display: block;
     margin: 5px 0;
   }
+
+ .navbar-brand {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 0.6rem;
+  font-weight: 600;
 }
