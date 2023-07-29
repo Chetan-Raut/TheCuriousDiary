@@ -1,1 +1,198 @@
+ /* Reset some default styles */
+body, h1, h2, p, ul, li {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  color: #333;
+}
+
+#Logo img {
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ margin: 1rem;
+}
+
+header {
+  background-color: #f8f8f8;
+  padding: 10px;
+  text-align: center;
+}
+
+h1 {
+  font-size: 36px;
+  margin-bottom: 10px;
+  color: #ff6f00;
+}
+
+nav {
+  margin-top: 10px;
+}
+
+nav a {
+  display: inline-block;
+  margin: 0 10px;
+  text-decoration: none;
+  color: #555;
+}
+
+ nav a:hover {
+  color: #000;
+}
+
+.navbar-brand {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 2rem;
+  font-weight: 700;
+  text-decoration: underline;
+  text-decoration-color: deepskyblue;
+}
+
+.navbar-nav .nav-link {
+  font-family: 'Open Sans', sans-serif; 
+  font-weight: bold;
+}
+
+.navbar-toggler:focus {
+  outline: none; /* Remove the yellow outline */
+}
+
+.navbar-toggler {
+  border-color: black; /* Set the border color to black */
+}
+
+main {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 30px;
+}
+
+main img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 20px;
+}
+
+h2 {
+  font-size: 28px;
+  margin-bottom: 10px;
+  color: #ff6f00;
+}
+
+p {
+  margin-bottom: 20px;
+}
+
+.footer {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+}
+
+.footer p {
+  margin: 5px 0;
+}
+
+.footer a {
+  color: #fff;
+  text-decoration: none;
+}
+
+/*Contact styles*/
+
+.contact h2 {
+  color: #333;
+}
+
+.contact form {
+  display: flex;
+  flex-direction: column;
+  max-width: 400px;
+  margin: auto;
+}
+
+.contact label,
+.contact textarea,
+.contact input[type="text"],
+.contact input[type="email"],
+.contact button {
+  margin: 0.5rem 0;
+  padding: 0.5rem;
+}
+
+.contact textarea {
+  resize: vertical;
+}
+
+.contact button {
+  background-color: #333;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+.contact button:hover {
+  background-color: #444;
+} 
+
+/* Style for the social icons */
+ .social-icons {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   font-size: 2rem;
+   height: 15vh;
+   /*margin: 1rem;*/
+    }
+
+  .social-icons a {
+    margin: 1rem;
+  }
+
+ .facebook {
+   color: #3b5998;
+    }
+
+ .instagram {
+   color: #c13584;
+    }
+
+ .pinterest {
+   color: #bd081c;
+    }
+
+ .twitter {
+   color: #1da1f2;
+    }
+
+ .whatsapp {
+   color: #25d366;
+    } 
+
+/* Responsive Design */
+@media (max-width: 600px) {
+  h1 {
+    font-size: 24px;
+  }
+
+  h2 {
+    font-size: 20px;
+  }
+
+  nav {
+    display: block;
+    text-align: center;
+  }
+
+  nav a {
+    display: block;
+    margin: 5px 0;
+  }
+}
 
